@@ -35,5 +35,3 @@ fetch('archimonstres_par_zone.json')
     });
   })
   .catch(err => console.error("Erreur lors du chargement du JSON :", err));
-
-
