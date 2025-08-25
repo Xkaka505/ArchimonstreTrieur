@@ -1,7 +1,7 @@
 const zoneSelect = document.getElementById('zoneSelect');
 const souszonesContainer = document.getElementById('souszonesContainer');
 
-fetch('ArchimonstreTrieur/archimonstres_par_zone.json')
+fetch('archimonstres_par_zone.json')
   .then(res => res.json())
   .then(data => {
 
@@ -35,4 +35,5 @@ fetch('ArchimonstreTrieur/archimonstres_par_zone.json')
     });
   })
   .catch(err => console.error("Erreur lors du chargement du JSON :", err));
+
 
